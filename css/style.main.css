@@ -1,0 +1,382 @@
+@charset "utf-8";
+@import url("swiper.min.css");
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+/* 顶部导航 */
+.top-nar{
+	width: 100%;
+	height: 35px;
+	background-color: #9966CC;
+	/* padding: 5px 0 5px 0; */
+	font-size: 15px;
+}
+.top-nar div{
+	float: left;
+}
+.top-nar:after{
+	display: table;
+	content: "";
+	clear: both;
+}
+.top-nar .welcom{
+	color: white;
+	width: 50%;
+	line-height: 35px;
+	text-align: center;
+}
+.top-nar .contact{
+	display: flex;
+	color: white;
+	width: 50%;
+	line-height: 35px;	
+	justify-content: center;
+}
+.top-nar .contact p{
+	margin-left: 5%;
+}
+
+/* 中部导航 */
+.middle-nav{
+	width: 100%;
+	height: 70px;
+}
+.logo{
+	width: 30%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	line-height: 70px;
+}
+.logo img{
+	width: auto;
+	height: 80%;
+	margin-top: 7px;
+}
+.m-navbar {
+	width: 50%;
+	height: 100%;
+	float: right;
+}
+.m-navbar ul{
+	width: 100%;
+}
+.m-navbar ul li{
+	float: left;
+	display: block;
+	width: 20%;
+	text-align: center;
+	line-height: 70px;
+	/* background-color: aqua; */
+}
+.m-navbar ul li a{
+	color: #444;
+}
+/* 轮播1 */
+.swiper-container {
+    max-width: 100%;
+    height:auto;
+}  
+.swiper-slide img{
+	width: 100%;
+}
+/* 关于漫威 */
+.about_mv{
+	width: 100%;
+}
+.about_top{
+	margin: 50px auto;
+	width: 45%;
+	text-align: center;
+}
+.about_ifon{
+	width:60%;
+	/* height:400px; */
+	padding: 10px 0 10px 0;
+	/* background: #ddd; */
+	margin: 50px auto;
+}
+.about_houre{
+	display: flex;
+	justify-content: space-around;
+}
+.about_houre li{
+	display: block;
+	width: 20%;
+}
+.about_houre li p{
+	text-align: center;
+	margin-top:30px;
+}
+.about_item_img{
+	width:100%;
+	/* height: 75%; */	
+	padding-bottom: 100%;
+	border-radius: 50%;	
+	border: 2px dashed red;
+	background-size:100%; 
+	background-repeat:no-repeat ;
+}
+/* 钢铁侠 */
+.IronMan{
+	width: 100%;
+	height: auto;
+	/* padding:5px 0 5px 0; */
+	background-color: #cc6666;
+	display: flex;
+}
+.IronMan-IMG{
+	width: 35%;
+	/* padding-top:100%; */
+	height: auto;
+}
+.IronMan-IMG img{
+	float: right;
+}
+.IronMan-IFON{
+	width: 65%;
+	height: auto;
+	position: relative;
+}
+.IronMan-IFON .text{
+	position: absolute;
+	top: 40%;
+	left: 10%;
+}
+.IronMan-IFON .text p{
+	color: #999;
+}
+
+/* 电影专辑 */
+.mv-mover{
+	width: 100%;
+}
+.mv-mover .mover-top{
+	margin: 50px auto;
+	width: 45%;
+	text-align: center;
+}
+.pp{
+	line-height: 30px;
+}
+
+.all-movers{
+	width: 70%;
+	/* height: 500px; */
+	padding-bottom: 30px;
+	margin: 50px auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.all-movers .movers{
+	width: 45%;
+	height: 45%;
+	border: 1px solid red;
+	border-radius:12px ;
+	display: flex;
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+.all-movers .movers .movers-img{
+	width: 45%;
+	height: 60%;
+	overflow: hidden;
+	background: #ccc;
+}
+.all-movers .movers .movers-txt{
+	width: 65%;
+	height: 100%;
+	padding: 30px 10px 15px 10px;
+}
+.all-movers .movers .movers-txt .mover-p1{
+	font-size: 1.25rem;
+	color: coral;
+}
+.all-movers .movers .movers-txt .mover-p1 span{
+	color: #999;
+}
+.all-movers .movers .movers-txt .mover-p2{
+	color: #555;
+	line-height: 1.5625rem;
+}
+.all-movers .movers .movers-txt .mover-p3 a{
+	font-size: 0.875rem;
+	color: seagreen;
+}
+.all-movers .movers .movers-img img{
+	width: 100%;
+}
+/* 底部 */
+
+.foot{
+	width: 100%;
+	padding-bottom: 10px;
+	background:url(../bgimg/foot-bg.png) ;
+}
+.foot-top{
+	width: 45%;
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+}
+.foot-top img{
+	width:150px;
+}
+.foot-top p{
+	line-height: 35px;
+	margin-top: 20px;
+}
+
+.foot-middle{
+	width: 60%;
+	margin: 50px auto;
+}
+.foot-middle ul{
+	width: 100%;
+	font-size: 0;
+}
+.foot-middle ul li{
+	width: 25%;
+	display: inline-block;	
+	font-size: 1rem;
+	text-align: center;
+}
+.foot-middle ul li p{
+	color: white;
+}
+.foot-middle ul li img{
+	width: 60px;
+}
+.foot-bottom{
+	width: 100%;
+	text-align: center;
+}
+.foot-bottom p{
+	display: block;
+	width: 20%;
+	margin: 20px auto;
+	color: white;
+	padding: 15px 0 15px 0;
+	background: orangered;
+	border-radius:40px ;
+	font-size: 20px;
+	font-weight: bold;
+}
+/* 海报展示 */
+
+.haibao{
+	width: 100%;
+	/* background: beige; */
+	/* height: 500px; */
+	padding: 50px 0 50px 0;
+}
+
+.haibao-top{
+	width: 60%;
+	padding: 30px 0 30px 0;
+	margin: 0 auto;
+	text-align: center;
+}
+.haibao-top img{
+	width: 100px;
+	padding: 15px;
+}
+.haibao-bottom{
+	width: 70%;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.haibao-bottom .pictures{
+	width: 30%;
+	padding-bottom: 16.875%;
+	position: relative;
+	/* padding: 15px 0 15px 0; */
+	margin: 15px 0 0 0;
+	overflow: hidden;
+}
+.haibao-bottom .pictures img{
+	width: 100%;
+	opacity: 0.7;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: 0.5s ease;
+}
+.haibao-bottom .superOne{
+	width: 63.3%;
+	padding-bottom: 16.875%;
+	position: relative;
+	overflow: hidden;
+}
+.pictures:hover img{
+	opacity: 1;
+	transform: scale(1.2);
+	transition: 0.5s ease;
+}
+.gengduo{
+	color: green;
+	text-align: right;
+	width: 68%;
+	margin: 0 auto;
+}
+/* 尾巴 */
+.huabian {
+	width: 100%;
+	height: 40px;
+	background: url(../img/huabian.png);
+}
+.weiba{
+	width: 100%;
+	/* height: 550px; */
+	/* background: #2E8B57; */
+	padding: 50px 0 0 0;
+	background: url(../img/weiba-bg.png);
+	color: #ccc;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.weiba p{
+	/* text-align: left; */
+	margin-top:50px ;
+	/* text-indent: 2rem; */
+}
+.aboutUs,.contactUs{
+	width: 35%;
+	text-align: left;
+	/* border: 1px solid white; */
+	text-indent: 2rem;
+}
+.contactUs{
+	padding-left: 100px;
+	text-indent:0rem;
+}
+.contactUs p{
+	display: flex;
+	height: 42px;
+	line-height: 42px;
+}
+.contactUs img{
+	width: 50px;
+	/* height: 100%; */
+	padding-right: 50px;
+}
+.banquan{
+	width: 100%;
+	height: 20%;	
+	/* border: 1px solid white; */
+	background: #333;
+	margin-top: 30px;
+	padding: 23px 0 23px 0;
+}
+.banquan p{
+	margin-top:10px ;
+	text-align: center;
+}
